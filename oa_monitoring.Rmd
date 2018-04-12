@@ -1,0 +1,44 @@
+---
+title: "OA_monitoring"
+author: "Fabio Molo, SNSF"
+date: "4 April 2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+```
+
+
+```{r load_from_p3}
+read.table()
+```
+
+We consider only pubiclations published in 2014 or later.
+```{r filter}
+# by publication date (ab 2014)
+```
+
+We retrieve unknown DOIs from crossref.
+```{r retrieve_doi, echo=FALSE}
+
+```
+
+We identify duplicates.
+```{r identfy_duplicates, echo=FALSE}
+
+```
+
+We query the oaDOI API etc.
+```{r check_oa_status, echo=FALSE}
+
+```
+
+```{r summarise, echo=FALSE}
+
+```
+
+```{r plot, echo = FALSE}
+kable()
+```
